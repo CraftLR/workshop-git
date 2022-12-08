@@ -1,40 +1,36 @@
-# <img src="https://raw.githubusercontent.com/CraftLR/workshop-git/master/assets/logo.png" alt="class logo" class="logo"/> 
+# <img src="https://raw.githubusercontent.com/CraftLR/workshop-git/master/src/main/resources/assets/logo.png" alt="class logo" class="logo"/> 
 
 ### La Rochelle Software Craftmenship
-
-* **Ressource:** [R2.03](https://cache.media.enseignementsup-recherche.gouv.fr/file/SPE4-MESRI-17-6-2021/35/5/Annexe_17_INFO_BUT_annee_1_1411355.pdf)
-* **Responsables:** 
+* **Auteurs:** 
     * [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr)
     * [Cyril Pain-Barre](mailto:cyril.pain-barre@univ-amu.fr)
 * **Besoin d'aide ?**
-    * Consulter et/ou créér des [issues](https://github.com/IUTInfoAix-R203/tp1-git/issues).
-    * [Email](mailto:sebastien.nedjar@univ-amu.fr) pour une question d'ordre privée, ou pour convenir d'un rendez-vous physique.
+    * Consulter et/ou créér des [issues](https://github.com/CraftLR/workshop-git/issues).
+    * [Email](mailto:sebastien.nedjar@univ-amu.fr) pour toutes questions autres.
 
-## Aperçu du TP et objectifs d'apprentissage
+## Aperçu du workshop et objectifs d'apprentissage
 
-L'objectif de ce TP est de vous donner une brève introduction à git et à GitHub. Vous aurez accès également à du matériel plus approfondi et quelques idées pour vous aider à démarrer.
+L'objectif de cet atelier est de donner une brève introduction à git et à GitHub. Vous aurez accès également à du matériel plus approfondi et quelques idées pour vous aider à démarrer.
 
-Ce TP est une libre adaptation du [Github Starter Course](https://github.com/education/github-starter-course).
+Cet atelier est une libre adaptation du [Github Starter Course](https://github.com/education/github-starter-course).
 
-## TP 1 : Découverte de l'environnement de travail, des outils et premiers pas avec git
+## Découverte de l'environnement de travail, des outils et premiers pas avec git
 
-L'objectif premier de ce TP est de vous familiariser avec tous les nouveaux outils qui seront mis en oeuvre pendant cet enseignement. 
+L'objectif premier de cet atelier est de se familiariser avec tous les outils de base qui sont mis en oeuvre pour faire de l'artisanat logiciel. 
 
-En plus de la découverte des bases de l'artisanat logiciel, les TP seront la première occasion de se confronter à la gestion de version, au test unitaire et à des outils de gestion de cycle de vie.
+En plus de la découverte des bases de l'artisanat logiciel, les premiers ateliers seront la première occasion de se confronter à la gestion de version, au test unitaire et à des outils de gestion de cycle de vie.
 
 ### :earth_africa: Préparation de l'environnement
-Pour connaitre les étaples nécéssaires à la mise en place de votre environnement de travail, lisez le document ["Préparation de l'environnement"](https://github.com/IUTInfoAix-R203/tp1-git/blob/main/preparation_de_lenvironnement.md).
+Pour connaitre les étaples nécéssaires à la mise en place de votre environnement de travail, lisez le document ["Préparation de l'environnement"](preparation_de_lenvironnement.md).
 ### :vulcan_salute: Première prise de contact avec Git
 
-Pour continuer à prendre en main Git et GitHub, vous allez suivre un tutoriel interactif vous permettant de découvrir l'une après l'autre, les possibilités de cet outil.
+Pour continuer à prendre en main Git et GitHub, vous allez suivre un tutoriel interactif permettant de découvrir l'une après l'autre, les possibilités de cet outil.
 
 Le tutoriel s'appelle **Learning Git Branching**, il fonctionne directement dans le navigateur. Pour commencer, allez à l'adresse : 
 
 [https://learngitbranching.js.org/](https://learngitbranching.js.org/?locale=fr_FR)
 
-Essayez de valider autant d'étape que possible en prenant bien le temps de comprendre ce que vous faites à chaque étape. Si certaines notion vous parraissent difficiles, n'hésitez pas à questionner votre enseignant au fur et à mesure.
-
-Une fois le tutoriel terminé, prennez une capture d'écran de la page web intégrant toutes les étapes que vous avez réalisées et l'envoyer à votre enseignant.
+Essayez de valider autant d'étape que possible en prenant bien le temps de comprendre ce que vous faites. Si certaines notion vous parraissent difficiles, n'hésitez pas à questionner l'animateur de la session au fur et à mesure.
 
 ### :octocat: Les bases de Git et GitHub 
 #### Git et GitHub
@@ -110,26 +106,26 @@ Le Github Flow repose sur l'utilisation d'une branche par fonctionnalité. La br
 
 Le Github Flow s'appuie sur plusieurs concepts de Git et aussi de leur mise en oeuvre dans Github. Pour en savoir plus, lisez ["Follow GitHub flow to collaborate on projects."](https://guides.github.com/introduction/flow/)). Vous pouvez aussi lire l'article ["Quel git workflow pour mon projet ?"](https://www.nicoespeon.com/fr/2013/08/quel-git-workflow-pour-mon-projet/) pour approfondir le sujet.
 
-### 🥢 Création de votre fork du TP1
-Maintenant que vous connaissez les bases de Git, vous allez pouvoir commencer à travailler sur vos TP. Comme vous allez le découvrir le rendu, l'évaluation et le suivi de votre travail passeront par GitHub. La première chose que vous allez donc faire est de créer un fork d'un dépôt. Pour ce faire, rendez-vous sur le lien suivant :
+### 🥢 Création de votre fork de l'atelier
+Maintenant que vous connaissez les bases de Git, vous allez pouvoir commencer à travailler par vous-même. Comme vous allez le découvrir la livraison, l'auto-évaluation et le suivi de votre travail passeront par GitHub et les outils associés. La première chose que vous allez donc faire est de créer le fork de ce dépôt. Pour ce faire, rendez-vous sur le lien suivant :
 
-https://classroom.github.com/a/nf6u9v4U
+https://classroom.github.com/a/qH9GnF1E
 
-GitHub va vous créer un dépôt contenant un fork de ce dépôt. Vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail. Sachez qu'un robot récupérera automatiquement votre code après chaque push pour vérifier que les tests passent et calculer en même temps votre taux d'accomplissement du TP.
+GitHub va vous créer un dépôt contenant un fork de ce dépôt. Vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail.
 
 #### À faire à la fin de chaque exercice (et probablement plus) 
 Une fois qu'un exercice sera terminé, n'oubliez pas de pousser vos modifications sur votre fork de la manière suivante :
 ```sh
-~/tpR203/tp1-VotreUsername (main*)$ git add .
-~/tpR203/tp1-VotreUsername (main*)$ git commit -m "Validation de l'exercice XX"
-~/tpR203/tp1-VotreUsername (main)$ git push origin main
+~/atelier-git-VotreUsername (main*)$ git add .
+~/atelier-git-VotreUsername (main*)$ git commit -m "Validation de l'exercice XX"
+~/atelier-git-VotreUsername (main)$ git push origin main
 ```
 
 ### 📝 Travail à faire
 
-1. Ouvrez une issue appelée "VotreUsername a terminé la lecture du TP" pour faire savoir à votre enseignant que vous avez terminé de lire le TP.
+1. Ouvrez une issue appelée "VotreUsername a terminé la lecture du workshop" pour faire savoir à votre animateur que vous avez terminé de faire l'atelier.
 
-2. Dans la branche `commentaires-VotreUsername` de votre fork du TP, créez un nouveau fichier Markdown s'appellant `VotreUsername.md`. Ecrivez une dizaine de ligne sur ce que vous avez appris et ce qui est encore confus pour vous. Expérimentez avec différentes mise en forme pour rendre votre document le plus explicite possible. Faire une pull-request sur le dépôt du TP pour demander à votre enseignement de faire une revue (utilisez la fonctionnalité "Reviewers" de la PR). N'oubliez pas de lier cette PR avec l'issue créée à la question précédente.   
+2. Dans la branche `commentaires-VotreUsername` de votre fork de l'atelier, créez un nouveau fichier Markdown s'appellant `VotreUsername.md`. Ecrivez une dizaine de ligne sur ce que vous avez appris et ce qui est encore confus pour vous. Expérimentez avec différentes mise en forme pour rendre votre document le plus explicite possible. Faire une pull-request sur le dépôt du TP pour demander à votre enseignement de faire une revue (utilisez la fonctionnalité "Reviewers" de la PR). N'oubliez pas de lier cette PR avec l'issue créée à la question précédente.   
 
 3. Créez le README de profil. Faites en sorte que le monde en sache un peu plus sur vous ! Qu'est-ce qui vous intéresse d'apprendre ? Sur quoi vous travaillez? Quel est votre passe-temps favori ? 
 

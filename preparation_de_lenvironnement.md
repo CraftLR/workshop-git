@@ -1,6 +1,6 @@
 # Préparation de l'environnement
 
-Comme vous allez le découvrir (a priori surtout l'approfondir), pour conserver vos réalisations et permettre à votre enseignant de suivre votre avancement vous allez apprendre à versionner votre travail sur [github](https://github.com/). Pendant ce module, vous allez principalement écrire du code pour vous-même. Comme vous le verrez plus tard ça sera principalement sur les SAÉ que [Git](https://git-scm.com/) offrira tout son potentiel.
+Comme vous allez le découvrir (a priori surtout l'approfondir), pour conserver vos réalisations vous allez apprendre à versionner votre travail sur [github](https://github.com/). Pendant ce module, vous allez principalement écrire du code pour vous-même.
 
 ## Création d'un compte Github
 
@@ -8,8 +8,8 @@ Rendez-vous sur la page d'accueil de [github](https://github.com/) :
 
 ![](src/main/resources/assets/ecran_d_accueil.png)
 
-Dans le coin supérieur droit cliquer sur "Sign Up". Dans la page qui apparaît, inscrivez votre nom d'utilisateur (**il doit être impérativement composé de votre prénom et de votre nom séparé par le caractère '-'**). 
-Dans le champs "Email Adress" mettre votre adresse universitaire (important pour bénéficier des avantages liés à votre statut d'étudiant). 
+Dans le coin supérieur droit cliquer sur "Sign Up". Dans la page qui apparaît, inscrivez votre nom d'utilisateur. 
+Dans le champs "Email Adress" mettre votre adresse mail académique (important pour bénéficier des avantages liés au statut étudiant si vous en disposez). 
 
 ![](src/main/resources/assets/join_github2.png)
 
@@ -17,7 +17,7 @@ Une fois le mot de passe renseigné cliquer sur le bouton "Create Account". Sur 
 
 ![](src/main/resources/assets/welcom_to_github.png)
 
-Le troisième et dernier écran d'enregistrement vous demande des informations sur votre profil. Indiquer principalement que vous êtes un étudiant et que vous comptez utiliser GitHub pour des projets étudiants.
+Le troisième et dernier écran d'enregistrement vous demande des informations sur votre profil. 
 
 ![](src/main/resources/assets/welcom_to_github2.png)
 
@@ -25,11 +25,11 @@ Une fois ces informations renseignées vous pouvez cliquer sur "Submit" pour dé
 
 ![](src/main/resources/assets/dashboard_github.png)
 
-Ne pas oublier de valider votre adresse email en allant cliquer sur le lien reçu dans l'ENT.
+Ne pas oublier de valider votre adresse email en allant cliquer sur le lien reçu par mail.
 
 ## Paramétrage de votre compte GitHub
 
-Maintenant que votre compte est créé, il faut personnaliser votre profil. GitHub, en plus de vous fournir un moyen simple et efficace de conserver votre code en ligne, est aussi un réseau social de développeur. Pour que votre profil puisse être valorisé un jour dans votre carrière pro, vous devez correctement renseigner vos informations (de manière annexe, ça facilitera la vie de vos enseignants quand ils essayent de savoir qui contribue vraiment dans les SAÉ).
+Maintenant que votre compte est créé, il faut personnaliser votre profil. GitHub, en plus de vous fournir un moyen simple et efficace de conserver votre code en ligne, est aussi un réseau social de développeur. Pour que votre profil puisse être valorisé un jour dans votre carrière pro, vous devez correctement renseigner vos informations.
 
 Pour ce faire, cliquer en haut à droite de la fenêtre sur l’icône qui représente votre avatar par défaut et aller sur "Your profile"  :
 
@@ -47,7 +47,7 @@ Comme dans l'image précédente, renseignez correctement votre nom, prénom, vot
 
 ## Demande du "Student Pack"
 
-Pour terminer la configuration de votre compte, il vous faut demander la remise académique vous permettant de bénéficier de dépôts privés et de nombreux autres avantages. Pour ce faire, il faut vous rendre sur la page suivante : https://education.github.com/pack
+Pour terminer la configuration de votre compte, vous pouvez demander la remise académique vous permettant de bénéficier de dépôts privés et de nombreux autres avantages. Pour ce faire, il faut vous rendre sur la page suivante : https://education.github.com/pack
 
 ![](src/main/resources/assets/student_pack.png)
 
@@ -93,7 +93,7 @@ Les lignes précédentes doivent donc être modifiées de la sorte :
 [user]
 username = alfred-tartempion
 name = Alfred Tartempion
-email = alfred.tartempion@etu.univ-amu.fr
+email = alfred.tartempion@gmail.com
 
 ...
 
@@ -101,7 +101,7 @@ email = alfred.tartempion@etu.univ-amu.fr
 
 ## Visualiser la branche courante
 
-Histoire de visualiser plus facilement sur quelle branche vous êtes, si vous avez le malheur d'utiliser bash, modifiez votre prompt de votre terminal afin qu'il affiche la branche courante.
+Histoire de visualiser plus facilement sur quelle branche vous êtes, si vous avez le malheur d'utiliser bash (si vous utilisez zsh + [ohmyzsh](https://ohmyz.sh/) vous avez déjà un vrai prompt en natif), modifiez votre prompt de votre terminal afin qu'il affiche la branche courante.
 
 Éditez le fichier `~/.bash_profile` et ajoutez les lignes suivantes:
 
@@ -127,3 +127,4 @@ Tapez `source ~/.bash_profile` pour charger la nouvelle configuration. Votre pro
 ```
 
 S'il y a des modifications pas encore versionnées, le nom de la branche courante sera suivi du caractère `*`.
+
