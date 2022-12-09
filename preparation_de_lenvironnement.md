@@ -101,7 +101,7 @@ email = alfred.tartempion@gmail.com
 
 ## Visualiser la branche courante
 
-Histoire de visualiser plus facilement sur quelle branche vous êtes, si vous avez le malheur d'utiliser bash (si vous utilisez zsh + [ohmyzsh](https://ohmyz.sh/) vous avez déjà un vrai prompt en natif), modifiez votre prompt de votre terminal afin qu'il affiche la branche courante.
+Pour visualiser plus facilement sur quelle branche vous êtes, si vous avez le malheur d'utiliser bash (si vous utilisez zsh + [ohmyzsh](https://ohmyz.sh/) vous avez déjà un prompt enrichi nativement), modifiez le prompt de votre terminal afin qu'il affiche la branche courante.
 
 Éditez le fichier `~/.bash_profile` et ajoutez les lignes suivantes:
 
