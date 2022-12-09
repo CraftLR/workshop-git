@@ -3,7 +3,6 @@
 ### La Rochelle Software Craftmenship
 * **Auteurs:** 
     * [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr)
-    * [Cyril Pain-Barre](mailto:cyril.pain-barre@univ-amu.fr)
 * **Besoin d'aide ?**
     * Consulter et/ou créér des [issues](https://github.com/CraftLR/workshop-git/issues).
     * [Email](mailto:sebastien.nedjar@univ-amu.fr) pour toutes questions autres.
@@ -125,13 +124,13 @@ Une fois qu'un exercice sera terminé, n'oubliez pas de pousser vos modification
 
 1. Ouvrez une issue appelée "VotreUsername a terminé la lecture du workshop" pour faire savoir à votre animateur que vous avez terminé de faire l'atelier.
 
-2. Dans la branche `commentaires-VotreUsername` de votre fork de l'atelier, créez un nouveau fichier Markdown s'appellant `VotreUsername.md`. Ecrivez une dizaine de ligne sur ce que vous avez appris et ce qui est encore confus pour vous. Expérimentez avec différentes mise en forme pour rendre votre document le plus explicite possible. Faire une pull-request sur le dépôt du TP pour demander à votre enseignement de faire une revue (utilisez la fonctionnalité "Reviewers" de la PR). N'oubliez pas de lier cette PR avec l'issue créée à la question précédente.   
+2. Dans la branche `commentaires-VotreUsername` de votre fork de l'atelier, créez un nouveau fichier Markdown s'appellant `VotreUsername.md`. Ecrivez une dizaine de ligne sur ce que vous avez appris et ce qui est encore confus pour vous. Expérimentez avec différentes mise en forme pour rendre votre document le plus explicite possible. Faire une pull-request sur le dépôt principal pour demander à votre voisin de faire une revue (utilisez la fonctionnalité "Reviewers" de la PR). N'oubliez pas de lier cette PR avec l'issue créée à la question précédente.   
 
 3. Créez le README de profil. Faites en sorte que le monde en sache un peu plus sur vous ! Qu'est-ce qui vous intéresse d'apprendre ? Sur quoi vous travaillez? Quel est votre passe-temps favori ? 
 
     En savoir plus sur la création de votre README profil dans le document ["Managing Your Profile README"](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
 
-4. Accédez à votre tableau de bord utilisateur et créez un nouveau dépôt privé. Testez les fonctionnalités de ce référentiel pour vous familiariser avec elles. Rendre le dépôt accessible en lecture à votre enseignant.
+4. Accédez à votre tableau de bord utilisateur et créez un nouveau dépôt privé. Testez les fonctionnalités de ce référentiel pour vous familiariser avec elles. Rendre le dépôt accessible en lecture à votre voisin.
 
 ### 📚 Ressources
 * [Une courte vidéo expliquant ce qu'est GitHub](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be)
