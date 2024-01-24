@@ -108,7 +108,7 @@ Le Github Flow s'appuie sur plusieurs concepts de Git et aussi de leur mise en o
 ### 🥢 Création de votre fork de l'atelier
 Maintenant que vous connaissez les bases de Git, vous allez pouvoir commencer à travailler par vous-même. Comme vous allez le découvrir la livraison, l'auto-évaluation et le suivi de votre travail passeront par GitHub et les outils associés. La première chose que vous allez donc faire est de créer le fork de ce dépôt. Pour ce faire, rendez-vous sur le lien suivant :
 
-https://classroom.github.com/a/qH9GnF1E
+<https://classroom.github.com/a/p8UspxC1>
 
 GitHub va vous créer un dépôt contenant un fork de ce dépôt. Vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail.
 
